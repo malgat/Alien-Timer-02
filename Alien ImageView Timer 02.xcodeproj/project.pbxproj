@@ -14,6 +14,11 @@
 		CD1544B8224CAB1D0066FF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1544B6224CAB1D0066FF9B /* LaunchScreen.storyboard */; };
 		CD1544C3224CAB1D0066FF9B /* Alien_ImageView_Timer_02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1544C2224CAB1D0066FF9B /* Alien_ImageView_Timer_02Tests.swift */; };
 		CD1544CE224CAB1D0066FF9B /* Alien_ImageView_Timer_02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1544CD224CAB1D0066FF9B /* Alien_ImageView_Timer_02UITests.swift */; };
+		CD1544EA224CB1490066FF9B /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1544E5224CB1480066FF9B /* frame1.png */; };
+		CD1544EB224CB1490066FF9B /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1544E6224CB1490066FF9B /* frame4.png */; };
+		CD1544EC224CB1490066FF9B /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1544E7224CB1490066FF9B /* frame2.png */; };
+		CD1544ED224CB1490066FF9B /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1544E8224CB1490066FF9B /* frame5.png */; };
+		CD1544EE224CB1490066FF9B /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1544E9224CB1490066FF9B /* frame3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		CD1544C9224CAB1D0066FF9B /* Alien ImageView Timer 02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alien ImageView Timer 02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1544CD224CAB1D0066FF9B /* Alien_ImageView_Timer_02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alien_ImageView_Timer_02UITests.swift; sourceTree = "<group>"; };
 		CD1544CF224CAB1D0066FF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1544E5224CB1480066FF9B /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
+		CD1544E6224CB1490066FF9B /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
+		CD1544E7224CB1490066FF9B /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
+		CD1544E8224CB1490066FF9B /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
+		CD1544E9224CB1490066FF9B /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		CD1544AC224CAB1D0066FF9B /* Alien ImageView Timer 02 */ = {
 			isa = PBXGroup;
 			children = (
+				CD1544E5224CB1480066FF9B /* frame1.png */,
+				CD1544E7224CB1490066FF9B /* frame2.png */,
+				CD1544E9224CB1490066FF9B /* frame3.png */,
+				CD1544E6224CB1490066FF9B /* frame4.png */,
+				CD1544E8224CB1490066FF9B /* frame5.png */,
 				CD1544AD224CAB1D0066FF9B /* AppDelegate.swift */,
 				CD1544AF224CAB1D0066FF9B /* ViewController.swift */,
 				CD1544B1224CAB1D0066FF9B /* Main.storyboard */,
@@ -232,7 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1544EB224CB1490066FF9B /* frame4.png in Resources */,
+				CD1544ED224CB1490066FF9B /* frame5.png in Resources */,
 				CD1544B8224CAB1D0066FF9B /* LaunchScreen.storyboard in Resources */,
+				CD1544EE224CB1490066FF9B /* frame3.png in Resources */,
+				CD1544EC224CB1490066FF9B /* frame2.png in Resources */,
+				CD1544EA224CB1490066FF9B /* frame1.png in Resources */,
 				CD1544B5224CAB1D0066FF9B /* Assets.xcassets in Resources */,
 				CD1544B3224CAB1D0066FF9B /* Main.storyboard in Resources */,
 			);
