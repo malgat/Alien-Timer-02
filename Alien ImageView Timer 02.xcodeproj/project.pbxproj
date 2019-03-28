@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1544AE224CAB1D0066FF9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1544AD224CAB1D0066FF9B /* AppDelegate.swift */; };
+		CD1544B0224CAB1D0066FF9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1544AF224CAB1D0066FF9B /* ViewController.swift */; };
+		CD1544B3224CAB1D0066FF9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1544B1224CAB1D0066FF9B /* Main.storyboard */; };
+		CD1544B5224CAB1D0066FF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1544B4224CAB1D0066FF9B /* Assets.xcassets */; };
+		CD1544B8224CAB1D0066FF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1544B6224CAB1D0066FF9B /* LaunchScreen.storyboard */; };
+		CD1544C3224CAB1D0066FF9B /* Alien_ImageView_Timer_02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1544C2224CAB1D0066FF9B /* Alien_ImageView_Timer_02Tests.swift */; };
+		CD1544CE224CAB1D0066FF9B /* Alien_ImageView_Timer_02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1544CD224CAB1D0066FF9B /* Alien_ImageView_Timer_02UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1544BF224CAB1D0066FF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1544A2224CAB1D0066FF9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1544A9224CAB1D0066FF9B;
+			remoteInfo = "Alien ImageView Timer 02";
+		};
+		CD1544CA224CAB1D0066FF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1544A2224CAB1D0066FF9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1544A9224CAB1D0066FF9B;
+			remoteInfo = "Alien ImageView Timer 02";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD1544AA224CAB1D0066FF9B /* Alien ImageView Timer 02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alien ImageView Timer 02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1544AD224CAB1D0066FF9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD1544AF224CAB1D0066FF9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD1544B2224CAB1D0066FF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1544B4224CAB1D0066FF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1544B7224CAB1D0066FF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD1544B9224CAB1D0066FF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1544BE224CAB1D0066FF9B /* Alien ImageView Timer 02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alien ImageView Timer 02Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1544C2224CAB1D0066FF9B /* Alien_ImageView_Timer_02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alien_ImageView_Timer_02Tests.swift; sourceTree = "<group>"; };
+		CD1544C4224CAB1D0066FF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1544C9224CAB1D0066FF9B /* Alien ImageView Timer 02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alien ImageView Timer 02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1544CD224CAB1D0066FF9B /* Alien_ImageView_Timer_02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alien_ImageView_Timer_02UITests.swift; sourceTree = "<group>"; };
+		CD1544CF224CAB1D0066FF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1544A7224CAB1D0066FF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1544BB224CAB1D0066FF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1544C6224CAB1D0066FF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1544A1224CAB1D0066FF9B = {
+			isa = PBXGroup;
+			children = (
+				CD1544AC224CAB1D0066FF9B /* Alien ImageView Timer 02 */,
+				CD1544C1224CAB1D0066FF9B /* Alien ImageView Timer 02Tests */,
+				CD1544CC224CAB1D0066FF9B /* Alien ImageView Timer 02UITests */,
+				CD1544AB224CAB1D0066FF9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1544AB224CAB1D0066FF9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1544AA224CAB1D0066FF9B /* Alien ImageView Timer 02.app */,
+				CD1544BE224CAB1D0066FF9B /* Alien ImageView Timer 02Tests.xctest */,
+				CD1544C9224CAB1D0066FF9B /* Alien ImageView Timer 02UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1544AC224CAB1D0066FF9B /* Alien ImageView Timer 02 */ = {
+			isa = PBXGroup;
+			children = (
+				CD1544AD224CAB1D0066FF9B /* AppDelegate.swift */,
+				CD1544AF224CAB1D0066FF9B /* ViewController.swift */,
+				CD1544B1224CAB1D0066FF9B /* Main.storyboard */,
+				CD1544B4224CAB1D0066FF9B /* Assets.xcassets */,
+				CD1544B6224CAB1D0066FF9B /* LaunchScreen.storyboard */,
+				CD1544B9224CAB1D0066FF9B /* Info.plist */,
+			);
+			path = "Alien ImageView Timer 02";
+			sourceTree = "<group>";
+		};
+		CD1544C1224CAB1D0066FF9B /* Alien ImageView Timer 02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1544C2224CAB1D0066FF9B /* Alien_ImageView_Timer_02Tests.swift */,
+				CD1544C4224CAB1D0066FF9B /* Info.plist */,
+			);
+			path = "Alien ImageView Timer 02Tests";
+			sourceTree = "<group>";
+		};
+		CD1544CC224CAB1D0066FF9B /* Alien ImageView Timer 02UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1544CD224CAB1D0066FF9B /* Alien_ImageView_Timer_02UITests.swift */,
+				CD1544CF224CAB1D0066FF9B /* Info.plist */,
+			);
+			path = "Alien ImageView Timer 02UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1544A9224CAB1D0066FF9B /* Alien ImageView Timer 02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1544D2224CAB1D0066FF9B /* Build configuration list for PBXNativeTarget "Alien ImageView Timer 02" */;
+			buildPhases = (
+				CD1544A6224CAB1D0066FF9B /* Sources */,
+				CD1544A7224CAB1D0066FF9B /* Frameworks */,
+				CD1544A8224CAB1D0066FF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alien ImageView Timer 02";
+			productName = "Alien ImageView Timer 02";
+			productReference = CD1544AA224CAB1D0066FF9B /* Alien ImageView Timer 02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD1544BD224CAB1D0066FF9B /* Alien ImageView Timer 02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1544D5224CAB1D0066FF9B /* Build configuration list for PBXNativeTarget "Alien ImageView Timer 02Tests" */;
+			buildPhases = (
+				CD1544BA224CAB1D0066FF9B /* Sources */,
+				CD1544BB224CAB1D0066FF9B /* Frameworks */,
+				CD1544BC224CAB1D0066FF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1544C0224CAB1D0066FF9B /* PBXTargetDependency */,
+			);
+			name = "Alien ImageView Timer 02Tests";
+			productName = "Alien ImageView Timer 02Tests";
+			productReference = CD1544BE224CAB1D0066FF9B /* Alien ImageView Timer 02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD1544C8224CAB1D0066FF9B /* Alien ImageView Timer 02UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1544D8224CAB1D0066FF9B /* Build configuration list for PBXNativeTarget "Alien ImageView Timer 02UITests" */;
+			buildPhases = (
+				CD1544C5224CAB1D0066FF9B /* Sources */,
+				CD1544C6224CAB1D0066FF9B /* Frameworks */,
+				CD1544C7224CAB1D0066FF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1544CB224CAB1D0066FF9B /* PBXTargetDependency */,
+			);
+			name = "Alien ImageView Timer 02UITests";
+			productName = "Alien ImageView Timer 02UITests";
+			productReference = CD1544C9224CAB1D0066FF9B /* Alien ImageView Timer 02UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1544A2224CAB1D0066FF9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = D7703_21;
+				TargetAttributes = {
+					CD1544A9224CAB1D0066FF9B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD1544BD224CAB1D0066FF9B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD1544A9224CAB1D0066FF9B;
+					};
+					CD1544C8224CAB1D0066FF9B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD1544A9224CAB1D0066FF9B;
+					};
+				};
+			};
+			buildConfigurationList = CD1544A5224CAB1D0066FF9B /* Build configuration list for PBXProject "Alien ImageView Timer 02" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1544A1224CAB1D0066FF9B;
+			productRefGroup = CD1544AB224CAB1D0066FF9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1544A9224CAB1D0066FF9B /* Alien ImageView Timer 02 */,
+				CD1544BD224CAB1D0066FF9B /* Alien ImageView Timer 02Tests */,
+				CD1544C8224CAB1D0066FF9B /* Alien ImageView Timer 02UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1544A8224CAB1D0066FF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1544B8224CAB1D0066FF9B /* LaunchScreen.storyboard in Resources */,
+				CD1544B5224CAB1D0066FF9B /* Assets.xcassets in Resources */,
+				CD1544B3224CAB1D0066FF9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1544BC224CAB1D0066FF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1544C7224CAB1D0066FF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1544A6224CAB1D0066FF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1544B0224CAB1D0066FF9B /* ViewController.swift in Sources */,
+				CD1544AE224CAB1D0066FF9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1544BA224CAB1D0066FF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1544C3224CAB1D0066FF9B /* Alien_ImageView_Timer_02Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1544C5224CAB1D0066FF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1544CE224CAB1D0066FF9B /* Alien_ImageView_Timer_02UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1544C0224CAB1D0066FF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1544A9224CAB1D0066FF9B /* Alien ImageView Timer 02 */;
+			targetProxy = CD1544BF224CAB1D0066FF9B /* PBXContainerItemProxy */;
+		};
+		CD1544CB224CAB1D0066FF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1544A9224CAB1D0066FF9B /* Alien ImageView Timer 02 */;
+			targetProxy = CD1544CA224CAB1D0066FF9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1544B1224CAB1D0066FF9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1544B2224CAB1D0066FF9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1544B6224CAB1D0066FF9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1544B7224CAB1D0066FF9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1544D0224CAB1D0066FF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD1544D1224CAB1D0066FF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1544D3224CAB1D0066FF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alien ImageView Timer 02/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01750942.Alien-ImageView-Timer-02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD1544D4224CAB1D0066FF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alien ImageView Timer 02/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01750942.Alien-ImageView-Timer-02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD1544D6224CAB1D0066FF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alien ImageView Timer 02Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01750942.Alien-ImageView-Timer-02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alien ImageView Timer 02.app/Alien ImageView Timer 02";
+			};
+			name = Debug;
+		};
+		CD1544D7224CAB1D0066FF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alien ImageView Timer 02Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01750942.Alien-ImageView-Timer-02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alien ImageView Timer 02.app/Alien ImageView Timer 02";
+			};
+			name = Release;
+		};
+		CD1544D9224CAB1D0066FF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alien ImageView Timer 02UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01750942.Alien-ImageView-Timer-02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alien ImageView Timer 02";
+			};
+			name = Debug;
+		};
+		CD1544DA224CAB1D0066FF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alien ImageView Timer 02UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01750942.Alien-ImageView-Timer-02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alien ImageView Timer 02";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1544A5224CAB1D0066FF9B /* Build configuration list for PBXProject "Alien ImageView Timer 02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1544D0224CAB1D0066FF9B /* Debug */,
+				CD1544D1224CAB1D0066FF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1544D2224CAB1D0066FF9B /* Build configuration list for PBXNativeTarget "Alien ImageView Timer 02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1544D3224CAB1D0066FF9B /* Debug */,
+				CD1544D4224CAB1D0066FF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1544D5224CAB1D0066FF9B /* Build configuration list for PBXNativeTarget "Alien ImageView Timer 02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1544D6224CAB1D0066FF9B /* Debug */,
+				CD1544D7224CAB1D0066FF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1544D8224CAB1D0066FF9B /* Build configuration list for PBXNativeTarget "Alien ImageView Timer 02UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1544D9224CAB1D0066FF9B /* Debug */,
+				CD1544DA224CAB1D0066FF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1544A2224CAB1D0066FF9B /* Project object */;
+}
